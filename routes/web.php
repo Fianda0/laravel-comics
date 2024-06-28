@@ -20,9 +20,6 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    $data = [
-        "messaggio" => "Ciao",
-        "benvenuto" => "Benvenuti in Laravel"
-    ];
-    return view('welcome', $data);
+
+    return view('welcome', config("store"));
 });
