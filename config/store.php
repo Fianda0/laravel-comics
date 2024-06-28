@@ -1,6 +1,7 @@
 <?php
 
 return [
+    "descrizioneAbout" => "Il progetto è stato creato da Giuseppe Fiandanese",
     "benvenuto" => "Benvenuti in Laravel",
     "films" => [
         [
