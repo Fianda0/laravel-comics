@@ -1,4 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #222;
     color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid white;
+    width: 50%;
 }
