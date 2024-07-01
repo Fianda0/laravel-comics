@@ -1,8 +1,9 @@
 <header>
-    <div>
-        Logo
+    <div class="logo">
+        Laravel
     </div>
     <div>
-        Link
+        <a href="">Home</a>
+        <a href="">About</a>
     </div>
 </header>
