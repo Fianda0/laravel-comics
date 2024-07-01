@@ -3,7 +3,7 @@
         Laravel
     </div>
     <div>
-        <a href="">Home</a>
-        <a href="">About</a>
+        <a href="{{ route('home') }}">Home</a>
+        <a href="{{ route('about') }}">About</a>
     </div>
 </header>

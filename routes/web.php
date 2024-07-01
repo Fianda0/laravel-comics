@@ -19,8 +19,8 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('welcome', config("store"));
-});
+})->name('home');
 
 Route::get('/about', function () {
     return view('about', config("store"));
-});
+})->name('about');
